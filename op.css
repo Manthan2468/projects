@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --navbar-height: 59px;
+}
+
+.navbar {
+    display: flex;
+    text-align: center;
+    position: sticky;
+}
+.an{
+    padding: 45px 23px;
+    font-size: 25px;
+    font-family:'Playball',cursive ;
+    font-weight:bolder;
+}
+.an a{
+    text-decoration: none;
+    color: black;
+
+}
+.an1{
+    margin-left: 200px;
+}
+.logo img {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 10px 10px;
+}
+
+.sec::before {
+    content: "";
+    position: absolute;
+    animation: kl 40s ease-in 0s infinite forwards alternate-reverse;
+    height: 650px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.75;
+}
+@keyframes kl {
+    0% {
+        background: url(24.jpg) no-repeat center center/cover;
+    }
+
+    10% {
+        background: url(2.jpg) no-repeat center center/cover;
+    }
+
+    20% {
+        background: url(15.jpg) no-repeat center center/cover;
+    }
+
+    30% {
+        background: url(16.jpg) no-repeat center center/cover;
+    }
+
+    40% {
+        background: url(20.jpg) no-repeat center center/cover;
+    }
+
+    50% {
+        background: url(18.jpg) no-repeat center center/cover;
+    }
+
+    60% {
+        background: url(19.jpg) no-repeat center center/cover;
+    }
+
+    70% {
+        background: url(17.jpg) no-repeat center center/cover;
+    }
+
+    80% {
+       background: url(21.jpg) no-repeat center center/cover;
+    }
+
+    90% {
+        background: url(22.jpg) no-repeat center center/cover;
+    }
+
+    100% {
+        background: url(23.jpg) no-repeat center center/cover;
+    }
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding: 45px 23px;
+}
+.navbar ul li a {
+    font-family: 'Playball',cursive;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+}
+
+.sec h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+    padding-bottom: 4px;
+    animation: op 60s ease-in-out 0s infinite forwards alternate-reverse;
+}
+
+@keyframes op {
+    0% {
+        color: black;
+    }
+
+    10% {
+        color: red;
+    }
+
+    20% {
+        color: blue;
+    }
+
+    30% {
+        color: purple;
+    }
+
+    40% {
+        color: rgb(0, 255, 0);
+    }
+
+    50% {
+        color: rgb(255, 0, 76);
+    }
+
+    60% {
+        color: rgb(1, 120, 255);
+    }
+
+    70% {
+        color: orangered;
+    }
+
+    80% {
+        color: maroon;
+    }
+
+    90% {
+        color: rgb(252, 0, 84);
+    }
+
+    100% {
+        color: royalblue;
+    }
+}
+.sec p{
+    font-family: 'Courgette', cursive;
+}
+
+button {
+    font-family: cursive;
+    border-radius: 14px;
+    height: 30px;
+    width: 95px;
+    margin-top: 9px;
+    cursor: pointer;
+    background-color: maroon;
+    color: wheat;
+    transition: all 0.1s ease-in-out 0s;
+    animation: p 2s ease-in-out 0s infinite forwards alternate-reverse;
+}
+@keyframes p {
+    0% {
+       border-color: black;
+    }
+
+    10% {
+         border-color: red;
+    }
+
+    20% {
+         border-color: blue;
+    }
+
+    30% {
+         border-color: purple;
+    }
+
+    40% {
+         border-color: green;
+    }
+
+    50% {
+         border-color: rgb(255, 0, 76);
+    }
+
+    60% {
+         border-color: rgb(255, 1, 221);
+    }
+
+    70% {
+         border-color: orangered;
+    }
+
+    80% {
+         border-color: maroon;
+    }
+
+    90% {
+         border-color: lawngreen;
+    }
+
+    100% {
+         border-color: royalblue;
+    }
+}
+button:hover{
+    width: 100px ;
+    background-color: rgb(6, 6, 10);
+    color: white;
+}
+.h1{
+    text-align: center;
+}
+.free{
+    background-color: #bfdad5;
+}
+.free h1{
+    font-family: 'Caveat', cursive;
+}
+.free h3{
+    font-family: 'Pinyon Script', cursive;
+}
+.ql{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-evenly;
+    text-align: center
+}
+.al img{
+    border: 1px solid black;
+}
+.zt{
+    display:flex;
+    align-items: center;
+}
+.zt img{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 9px;
+}
+.zv{
+    position: relative;
+}
+.zv h1{
+    font-family: 'Caveat', cursive; 
+}
+.zv::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('33.jpg') no-repeat center center/cover;
+}
+.zm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+}
+.zm input{
+    width: 89%;
+    padding: 1px;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+.za h1{font-family: 'Caveat', cursive;}
+.item h1{
+    font-family: 'Caveat', cursive;
+}
+.zt{
+    margin-left: 20px;
+}
+.zt h2{
+    margin-left: 20px;
+    font-family: 'Caveat', cursive;
+}
+.b{
+    width: 22%;
+    margin-left: 33%;
+}
+.b input{
+    background-color: #e76123;
+    margin-bottom: 25px;
+}
+.b input:hover{
+    background-color: #fcfcfc00;
+    color: rgb(3, 3, 3);
+}
+.za::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 821px;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('36.jpg') no-repeat center center/cover;
+}
+.zxc p{
+    font-family: 'Playball',cursive;
+}
+.item::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+    opacity: 0.5;
+    background: url("37.jpg") no-repeat center center/cover;
+    margin-top: -9px;
+}
+.zb{
+    font-family: 'Balsamiq Sans', cursive;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.za p{
+    font-family: cursive;
+}
+.item p{
+    font-family: cursive;
+}
+.ap img{
+    height: 40px;
+    cursor: pointer;
+}
+.qm h2{
+  font-family: 'Balsamiq Sans', cursive;
+}
+.ap h2{
+  font-family: 'Balsamiq Sans', cursive;
+}
+.cs h2{
+    font-family: 'Balsamiq Sans', cursive;
+}
+#am{
+   display: grid;
+   justify-content: center;
+   align-items: center;
+  
+}
+#am button{
+    width: 100vw;
+}
+@media  (max-width : 360px){
+   .za{
+    height:350vh;
+    background: url('36.jpg') no-repeat center center/cover;
+   }
+   .item{
+    height: 145vh;
+    background: url('37.jpg') no-repeat center center/cover;
+   }
+}

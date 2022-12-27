@@ -1,0 +1,43 @@
+body{
+    background-color: grey;
+}
+#form{
+    background: url('58.jpg') no-repeat center center/cover;
+    border: 2px solid red;
+    height: 97vh;
+    border-radius: 100px;
+    width: 1000px;
+    margin-left:170px ;
+}
+.exe h1{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+form input{
+    height: 35px;
+    width: 300px;
+}
+button{
+    width: 200px;
+    height: 35px;
+    font-size: 25px;
+    background-color: green;
+    cursor: pointer;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.btn1{
+    width: 300px;
+}
+.btn1 a,.btn a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
