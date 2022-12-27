@@ -1,0 +1,57 @@
+body{
+    background-color: grey;
+}
+#login{
+    background: url('59.jpg') no-repeat center center/cover;
+    border: 2px solid red;
+    height: 97vh;
+    border-radius: 100px;
+    width: 1000px;
+    margin-left:170px ;
+}
+.exe1 h1{
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  margin-bottom: 150px;
+  text-decoration: underline;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+form input{
+    height: 45px;
+    width: 300px;
+}
+.btn1{
+    height: 40px;
+    width: 300px;
+    background-color: green;
+    font-size: 25px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.btn1 a{
+    text-decoration: none;
+    color: black;
+}
+.nt{
+    display: flex;
+    justify-content: center;
+}
+.btn2{
+    height: 40px;
+    width: 300px;
+    background-color: green;
+    font-size: 25px;
+    cursor: pointer;
+}
+.btn2 a{
+    text-decoration: none;
+    color: black;
+}
+.ap{
+    display: flex;
+    justify-content: center;
+}
